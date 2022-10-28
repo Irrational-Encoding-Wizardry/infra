@@ -1,0 +1,34 @@
+[
+  {
+    # The full DNS record, including FQDN
+    # You can have multiple records with the same name.
+    "name": "_sip._tls.encode.moe.",
+    
+    # SRV or LOC
+    "type": "SRV",
+
+    # TTL of the entry.
+    # If null it is automatically determined by CloudFlare.
+    "ttl": null,
+
+    "value": {
+      # Depends on the service (should start with an underscore).
+      "service": "_sip",
+
+      # One of _tls, _tcp, or _udp
+      "proto": "_tls",
+
+      # Same as FQDN. (In this example encode.moe)
+      "name": "encode.moe",
+
+      # Same as name.
+      "target": "encode.moe",
+
+      # Optional
+      "priority": 1,
+
+      # Optional
+      "weight": 5
+    }
+  }
+]

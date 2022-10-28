@@ -1,0 +1,27 @@
+[
+  {
+    # The domain to register.
+    # Required to end with "encode.moe."
+    #
+    # You can have multiple records with the same name.
+    "name": "www.encode.moe.",
+  
+    # The TTL of the entry.
+    # If TTL is null, it means it is automatically determined by
+    # CloudFlare.
+    "ttl": null,
+  
+    # The type of the DNS record.
+    # You will most likely be interested in A, AAAA and CNAME.
+    "type": "A",
+  
+    # The value of the record
+    "value": "insert.some.ip.address",
+
+    # For MX Records, it represents the Priority.
+    "priority": null,
+
+    # If true, CloudFlare will proxy the request.
+    "proxied": false
+  }
+]

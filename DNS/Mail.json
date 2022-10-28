@@ -1,0 +1,27 @@
+[
+    {
+        "name": "encode.moe.",
+        "type": "MX",
+        "value": "mx00.kundenserver.de",
+        "ttl": null,
+        "priority": 60
+    },
+    {
+        "name": "encode.moe.",
+        "type": "MX",
+        "value": "mx01.kundenserver.de",
+        "ttl": null,
+        "priority": 61
+    },
+    {
+        "name": "encode.moe.",
+        "type": "TXT",
+        "value": "v=spf1 mx -all"
+    },
+    {
+        "name": "autodiscover.encode.moe.",
+        "type": "CNAME",
+        "value": "adsredir.1and1.info",
+        "proxied": false
+    }
+]

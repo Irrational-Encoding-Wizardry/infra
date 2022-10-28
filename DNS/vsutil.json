@@ -1,0 +1,8 @@
+[
+    {
+        "name": "vsutil.encode.moe.",
+        "type": "CNAME",
+        "value": "readthedocs.io",
+        "proxied": false
+    }
+]
