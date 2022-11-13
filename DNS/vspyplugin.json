@@ -1,0 +1,8 @@
+[
+    {
+        "name": "vspyplugin.encode.moe.",
+        "type": "CNAME",
+        "value": "readthedocs.io",
+        "proxied": false
+    }
+]
